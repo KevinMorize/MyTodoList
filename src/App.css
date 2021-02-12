@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+html{
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding-top:10%;
+  background-image: url("../src/back.jpg");
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: 'Finger Paint', cursive;
+  font-size: 4em;
+  margin-bottom: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-group {
+  width: 85%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  font-family: 'Finger Paint', cursive;
 }
